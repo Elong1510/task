@@ -1,0 +1,25 @@
+.box-group {
+    padding: 30px;
+    text-align: center;
+    border: 1px solid;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.btn-signin {
+    border-radius: 20px;
+    border: 1px solid;
+    padding: 5px 10px;
+    background-color: #212121;
+    color: #eee;
+}
+
+.btn-signin:hover {
+    background-color: #eee;
+    color: green;
+    border-color: green;
+}

@@ -1,0 +1,24 @@
+.btn-nav {
+    padding: 5px 10px;
+    border: none;
+    background-color: transparent !important;
+    color: #212121;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.btn-nav:hover {
+    background-color: #eee;
+    color: #212121;
+    border-bottom: 1px solid green;
+    font-weight: bold;
+
+}
+
+.btn-nav:focus {
+    background-color: #eee;
+    color: #212121;
+    border-bottom: 1px solid green;
+    font-weight: bold;
+
+}

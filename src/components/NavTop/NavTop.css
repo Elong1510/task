@@ -1,0 +1,32 @@
+.box {
+    padding: 30px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #212121;
+}
+
+.btn-icon {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.btn-icon:hover {
+    color: green;
+}
+
+.btn-icon:focus {
+    color: #212121;
+    border-bottom: 1px solid green;
+}

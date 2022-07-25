@@ -1,0 +1,16 @@
+.list-post-img1 {
+    width: 100%;
+    height: 100px;
+}
+
+.list-box-related {
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-top: 20px;
+}
+
+.post-overflow-y {
+    height: 400px;
+    overflow-y: auto;
+    padding: 20px;
+}

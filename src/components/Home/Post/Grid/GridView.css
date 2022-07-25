@@ -1,0 +1,30 @@
+.post-img1 {
+    height: 300px;
+}
+
+.title1 {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.description {
+    font-size: 12px;
+    color: grey;
+}
+
+.date {
+    color: grey;
+    font-size: 14px;
+}
+
+.author {
+    color: grey;
+    font-size: 12px;
+}
+
+.small-box {
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 10px;
+}
