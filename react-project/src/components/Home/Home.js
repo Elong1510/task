@@ -6,8 +6,7 @@ import RelatedNews from './Post/RelatedNews/RelatedNews';
 import CourseStore from './Post/CourseStore/CourseStore';
 import Carousel from './Carousel/Carousel';
 import Video from './Post/Video/Video';
-import './Home.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, } from "react-router-dom";
 
 const Home = (props) => {
     return (
@@ -22,17 +21,10 @@ const Home = (props) => {
                                 <NewestPost />
                             </div>
                             {/* Search bar, Grid view and List view */}
-                            <div className="mb-3">
-                                <BrowserRouter>
-                                    <Routes>
-                                        <Route path="/" element={<SearchView />} >
-                                            <Route index element={<GridView />} />
-                                            <Route path="Grid" element={<GridView />} />
-                                            <Route path="List" element={<ListView />} />
-                                        </Route>
-                                    </Routes>
-                                </BrowserRouter>
+                            <div className='mb-3'>
+<SearchView/>
                             </div>
+                         
                         </div>
                         <div className="col-4">
                             {/* Related News */}

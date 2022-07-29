@@ -1,7 +1,7 @@
-import NavTop from './components/NavTop/NavTop';
-import ButtonRoute from './components/ButtonRoute/ButtonRoute';
+import NavTop from '../react-project/src/components/NavTop/NavTop';
+import ButtonRoute from '../react-project/src/components/ButtonRoute/ButtonRoute';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './components/Home/Home';
+import Home from '../react-project/src/components/Home/Home';
 
 function App() {
   return (
@@ -9,7 +9,9 @@ function App() {
       <NavTop />
       <BrowserRouter>
         <Routes>
-          <Route path='./Components/Home' element={<Home />} />
+        <Route path='/' element={<ButtonRoute />}>
+          <Route path='Home' element={<Home />} />
+          </Route>
         </Routes>
       </BrowserRouter>
     </div>

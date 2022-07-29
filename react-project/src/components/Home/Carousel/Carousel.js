@@ -1,4 +1,4 @@
-import { Carousel } from "bootstrap";
+
 import hinh1 from './img/hinh1.jpg';
 import hinh2 from './img/hinh2.jpg';
 import hinh3 from './img/hinh3.jpg';

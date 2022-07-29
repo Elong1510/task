@@ -2,10 +2,7 @@ import './NavTop.css';
 import { BsYoutube } from "react-icons/bs";
 import { BsFacebook } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
-import { Link } from "react-router-dom";
-import ButtonRoute from '../ButtonRoute/ButtonRoute';
-
-
+import ButtonRoute from '../ButtonRoute/ButtonRoute'
 
 
 const NavTop = (props) => {
@@ -15,7 +12,7 @@ const NavTop = (props) => {
                 <div className="flex">
                     <span className="logo">Logo</span>
                     <div className="">
-                        <ButtonRoute />
+                   <ButtonRoute/>
                     </div>
                     <div className="flex">
                         <button className='btn-icon d-flex align-items-center me-2'>
