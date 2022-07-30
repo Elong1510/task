@@ -6,3 +6,59 @@
     font-size:30px;
     font-weight:bold;
 }
+.scroll-x {
+    overflow-x: auto;
+    display: flex;
+}
+
+
+/* width */
+
+.scroll-x::-webkit-scrollbar {
+    width: 10px !important;
+    background-color: transparent !important;
+}
+
+
+/* Track */
+
+.scroll-x::-webkit-scrollbar-track {
+    background: transparent !important;
+}
+
+
+/* Handle */
+
+.scroll-x::-webkit-scrollbar-thumb {
+    background: transparent !important;
+}
+
+
+/* Handle on hover */
+
+.scroll-x::-webkit-scrollbar-thumb:hover {
+    background: transparent !important;
+}
+
+.latest-work {
+    font-weight: bold;
+    font-size: 20px;
+}
+.btn-detail {
+    border:none;
+    border-radius:15px;
+    background-color: #eee;
+    color:#999999;
+    padding:0px 20px;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.btn-detail:hover {
+font-weight: bold;
+font-size: 18px;
+zoom: initial;
+transition: 0.24s ease;
+color:#212121;
+background-color: #fff;
+}

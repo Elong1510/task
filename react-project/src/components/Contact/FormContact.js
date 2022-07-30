@@ -1,24 +1,47 @@
+import "./FormContact.css";
+
 const FormContact = (props) => {
-return (
-<>
-<form action="" method="">
-<div className="mb-3">
-  <label for="exampleFormControlInput1" className="form-label">Email address</label>
-  <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="name@example.com"/>
-</div>
-<div className="mb-3">
-  <label for="exampleFormControlInput" className="form-label">Phone</label>
-  <input type="number" className="form-control" id="exampleFormControlInput" placeholder="0967847630"/>
-</div>
-<div className="mb-3">
-  <label for="exampleFormControlTextarea1" className="form-label">Request</label>
-  <textarea className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-</div>
-<div className="d-grid">
-<button type="submit" className="btn btn-primary">Submit</button>
-</div>
-</form>
-</>
-);
-}
+  return (
+    <>
+      <form action="" method="">
+        <div className="row">
+          <div className="mt-5">
+            <p className="text-30 fw-bold text-grey">Contact Me</p>
+            <p className="text-14">
+              Leave me a message, I will contact you as soon as possible.
+            </p>
+            <div className="form-field">
+              <input type="text" className="form-input" placeholder=" " />
+              <label for="name" className="form-label">
+                Name
+              </label>
+            </div>
+            <div className="form-field">
+              <input type="text" className="form-input" placeholder=" " />
+              <label for="email" className="form-label">
+                Email
+              </label>
+            </div>
+            <div className="form-field">
+              <textarea
+                type="text"
+                className="form-control1"
+                placeholder=" "
+                rows="3"
+              ></textarea>
+              <label for="message" className="form-label1">
+                Message
+              </label>
+            </div>
+            <div className="d-grid">
+              <button type="submit" className="btn btn-light-hover">
+                Send
+              </button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </>
+  );
+};
 export default FormContact;

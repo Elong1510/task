@@ -1,0 +1,53 @@
+.bg-title {
+    background-color: #eee;
+    padding: 2px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color:#212121;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.course-color {
+    color:#22a887;
+}
+.bg-title1 {
+    background-color: #212121;
+    padding: 2px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.youtube-color{
+    color:#fe0000;
+}
+.bg-title2 {
+    background-color: #212121;
+    padding: 2px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.news-color {
+    color:#FDCF58;
+}
+.bg-title-banner {
+    padding: 2px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+.fire-color {
+    color:#fd1d1d;
+}

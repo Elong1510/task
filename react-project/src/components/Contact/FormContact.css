@@ -1,0 +1,98 @@
+.form-input {
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    height: 50px;
+    width: 100%;
+    transition: 0.4s ease;
+}
+
+.form-control1 {
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    height: 200px;
+    width: 100%;
+    transition: 0.4s ease;
+}
+
+.form-input:focus {
+    border-color: #22a887 !important;
+}
+
+.form-control1:focus {
+    border-color: #22a887 !important;
+}
+
+
+.form-field {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.form-label {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 21px;
+    user-select: none;
+    color: #999;
+    pointer-events: none;
+    transition: .4s ease;
+}
+
+.form-label1 {
+    position: absolute;
+    top: 15%;
+    transform: translateY(-50%);
+    left: 21px;
+    user-select: none;
+    color: #999;
+    pointer-events: none;
+    transition: .4s ease;
+}
+
+/* placeholder-shown */
+
+.form-input:not(:placeholder-shown)+.form-label,
+.form-input:focus+.form-label {
+    top: 0px;
+    padding: 0 10px;
+    display: inline-block;
+    background-color: #fff;
+    color: #22a887;
+}
+
+.form-control1:not(:placeholder-shown)+.form-label1,
+.form-control1:focus+.form-label1 {
+    top: 0px;
+    padding: 0 10px;
+    display: inline-block;
+    background-color: #fff;
+    color: #22a887;
+}
+.btn-light-hover {
+    background-color: #22a887 !important;
+    color: #212121;
+}
+
+.btn-light-hover:hover {
+    background: #11998e;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #22a887, #50C51C);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #22a887, #50C51C);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #eee;
+    transition: .4s ease;
+}
+
+.btn-light-hover:focus {
+    background: #11998e;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #22a887, #50C51C);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #22a887, #50C51C);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #eee;
+}

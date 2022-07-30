@@ -1,0 +1,33 @@
+.btn-nav {
+    padding:5px 10px;
+    text-decoration: none;
+    color:#212121;
+    font-size: 16px;
+}
+
+.btn-nav:hover {
+    font-weight: bold;
+    color:#212121;
+}
+
+.visited {
+    font-weight: bold;
+    color:#212121;
+    text-decoration: none;
+}
+
+li {
+    border: none;
+    background-color: transparent;
+    padding:10px;
+    margin-right: 10px !important;
+    list-style: none;
+}
+
+li:hover {
+    border-bottom: 1px solid green;
+}
+
+li.visited {
+    border-bottom:1px solid green;
+}
